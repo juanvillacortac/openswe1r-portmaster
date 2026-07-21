@@ -1,0 +1,40 @@
+{
+  "version": 4,
+  "name": "openswe1r.zip",
+  "items": [
+    "Star Wars Episode I Racer.sh",
+    "openswe1r"
+  ],
+  "items_opt": [],
+  "attr": {
+    "title": "Star Wars: Episode I Racer",
+    "porter": [
+      "juanvillacortac"
+    ],
+    "desc": "The 1999 LucasArts podracing game. Native OpenSWE1R engine port for ARM handhelds (GLES). Mix of x86 CPU emulation (Unicorn) and Win32 API reimplementation. Requires original game files from GOG or Steam.",
+    "desc_md": "The 1999 LucasArts podracing game. Native **OpenSWE1R** engine port for ARM handhelds (GLES) and x86_64 Linux. The engine mixes x86 CPU emulation (Unicorn) with Win32 API reimplementation. Requires original game files from GOG or Steam.",
+    "inst": "Copy Star Wars: Episode I Racer files to openswe1r/game/ from GOG or Steam as-is (Data/, swep1r.exe, install.lid, etc.).",
+    "inst_md": null,
+    "genres": [
+      "racing",
+      "action"
+    ],
+    "image": null,
+    "rtr": false,
+    "exp": false,
+    "runtime": [],
+    "store": [
+      {
+        "name": "GOG",
+        "gameurl": "https://www.gog.com/en/game/star_wars_episode_i_racer",
+        "developerurl": "https://www.gog.com/en/games?developers=lucasfilm"
+      }
+    ],
+    "availability": "paid",
+    "reqs": [],
+    "arch": [
+      "aarch64"
+    ],
+    "min_glibc": ""
+  }
+}

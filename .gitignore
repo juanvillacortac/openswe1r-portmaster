@@ -1,0 +1,22 @@
+# Build output
+/dist/
+/openswe1r/build_aarch64/
+/openswe1r/build_linux64/
+
+# Port binaries and bundled libs (built by ./build.sh)
+/port/openswe1r/openswe1r.aarch64
+/port/openswe1r/openswe1r.x86_64
+/port/openswe1r/libs.aarch64/*
+!/port/openswe1r/libs.aarch64/.gitkeep
+
+# Local game files for dev (not part of the port repo)
+/gamedata/
+
+# Runtime logs
+log.txt
+startup.log
+logs.txt
+
+# Misc
+*.zip
+.DS_Store

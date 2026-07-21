@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+  <game>
+    <path>./Star Wars Episode I Racer.sh</path>
+    <name>Star Wars: Episode I Racer</name>
+    <desc>Star Wars: Episode I Racer is a 1999 racing game developed by LucasArts based on the podracing sequence from The Phantom Menace. Pilot high-speed podracers across eight planets in single-player tournament mode, with 23 selectable pilots and 25 tracks. The OpenSWE1R port mixes x86 CPU emulation (Unicorn) with Win32 API reimplementation to run the original Windows executable cross-platform.</desc>
+    <releasedate>19990519T000000</releasedate>
+    <developer>LucasArts</developer>
+    <publisher>LucasArts</publisher>
+    <genre>Racing</genre>
+    <image>./openswe1r/cover.png</image>
+  </game>
+</gameList>

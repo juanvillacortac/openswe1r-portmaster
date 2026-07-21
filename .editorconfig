@@ -1,0 +1,18 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{sh,inc,run}]
+end_of_line = lf
+charset = utf-8
+
+[*.{c,h,cmake}]
+charset = utf-8
+
+[*.json]
+charset = utf-8
+
+[Makefile]
+indent_style = tab

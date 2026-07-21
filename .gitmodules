@@ -1,0 +1,4 @@
+[submodule "openswe1r"]
+	path = openswe1r
+	url = https://github.com/juanvillacortac/openswe1r.git
+	branch = gles-port
