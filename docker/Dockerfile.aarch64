@@ -27,8 +27,6 @@ RUN dpkg --add-architecture arm64 \
         libopenal-dev:arm64 \
         libgles2-mesa-dev:arm64 \
         libegl1-mesa-dev:arm64 \
-        libunicorn-dev:arm64 \
-        libunicorn1:arm64 \
     && pip3 install --no-cache-dir 'cmake>=3.20' \
     && rm -rf /var/lib/apt/lists/*
 

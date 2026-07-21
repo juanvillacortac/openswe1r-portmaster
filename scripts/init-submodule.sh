@@ -5,7 +5,7 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 ENGINE="$ROOT/openswe1r"
 
 if [[ -d "$ROOT/.git" ]]; then
-    git -C "$ROOT" submodule update --init --recursive
+    git -C "$ROOT" submodule update --init --recursive --depth 1
 elif [[ ! -f "$ENGINE/CMakeLists.txt" ]]; then
     cat >&2 <<EOF
 Engine submodule missing.
